@@ -1,37 +1,36 @@
 /FixMyCode-AI/
-├── /FixMyCode-AI-dashboard/
-│   ├── /app/
-│   │   ├── /api/
+├── FixMyCode-AI-dashboard/
+│   ├── app/
+│   │   ├── api/
 │   │   │   └── razorpay.ts
-│   │   ├── /dashboard/
+│   │   ├── dashboard/
 │   │   │   └── page.tsx
-│   │   ├── /auth/
+│   │   ├── auth/
 │   │   │   └── login.tsx
 │   │   ├── layout.tsx
 │   │   └── globals.css
-│   ├── /components/
+│   ├── components/
 │   │   ├── Navbar.tsx
 │   │   ├── ReportCard.tsx
 │   │   └── Sidebar.tsx
-│   ├── /lib/
+│   ├── lib/
 │   │   ├── auth.ts
 │   │   └── api.ts
-│   ├── /public/
-│   │   ├── /images/
+│   ├── public/
+│   │   ├── images/
 │   │   └── favicon.ico
 │   ├── package.json
 │   ├── tailwind.config.js
 │   ├── tsconfig.json
 │   └── README.md
-│
-├── /FixMyCode-AI-backend/
-│   ├── /app/
+├── FixMyCode-AI-backend/
+│   ├── app/
 │   │   ├── __init__.py
 │   │   ├── routes.py
 │   │   ├── models.py
 │   │   ├── ai_service.py
 │   │   └── utils.py
-│   ├── /tests/
+│   ├── tests/
 │   │   ├── test_routes.py
 │   │   └── test_ai_service.py
 │   ├── config.py
@@ -39,20 +38,18 @@
 │   ├── .env
 │   ├── run.py
 │   └── README.md
-│
-├── /FixMyCode-AI-extension/
-│   ├── /src/
+├── FixMyCode-AI-extension/
+│   ├── src/
 │   │   ├── extension.ts
 │   │   ├── api.ts
 │   │   ├── auth.ts
 │   │   └── utils.ts
-│   ├── /assets/
+│   ├── assets/
 │   │   ├── icon.png
 │   │   └── manifest.json
 │   ├── package.json
 │   ├── tsconfig.json
 │   ├── webpack.config.js
 │   └── README.md
-│
 ├── .gitignore
 └── README.md
